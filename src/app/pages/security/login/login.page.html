@@ -1,0 +1,25 @@
+<ion-content padding>
+  <div class="logo-area">
+    <span>TITLE</span>
+  </div>
+  <form #form="ngForm">
+    <!--账号-->
+    <ion-item class="form-item" lines="none">
+      <ion-label position="fixed">
+        <i class="iconfont icon-user"></i>
+      </ion-label>
+      <ion-input [(ngModel)]="loginParams.username" name="username" required placeholder="账号"></ion-input>
+    </ion-item>
+    <!--密码-->
+    <ion-item class="form-item" lines="none">
+      <ion-label position="fixed">
+        <i class="iconfont icon-lock"></i>
+      </ion-label>
+      <ion-input [(ngModel)]="loginParams.password" name="password" required placeholder="密码"></ion-input>
+    </ion-item>
+    <!--登录按钮-->
+    <p>
+      <ion-button color="primary" expand="block" (click)="login()">登录</ion-button>
+    </p>
+  </form>
+</ion-content>

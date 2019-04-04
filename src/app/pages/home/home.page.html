@@ -1,0 +1,25 @@
+<ion-content class="home-content">
+  <ion-list class="menu-group" [hidden]="!menu$">
+    <div *ngFor="let module of menu$ | async">
+      <ion-item-divider>
+        <p class="divider">{{module.menuName}}</p>
+      </ion-item-divider>
+      <ion-grid no-padding>
+        <ion-row no-padding>
+          <ion-col size="3"
+                   class="menu-item"
+                   text-center
+                   *ngFor="let item of  module.children"
+                   (click)="openPage($event,item.menuPath)"
+                   padding-top
+                   padding-bottom>
+            <svg class="icon" aria-hidden="true">
+              <use [attr.xlink:href]="item.menuSicon"></use>
+            </svg>
+            <h3 class="menu-name" no-margin>{{item.menuName}}</h3>
+          </ion-col>
+        </ion-row>
+    </ion-grid>
+    </div>
+  </ion-list>
+</ion-content>

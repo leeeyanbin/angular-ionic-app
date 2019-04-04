@@ -1,0 +1,53 @@
+.mine-content{
+  --ion-background-color: #f5f5f9;
+}
+[padding]{
+  --ion-padding: 0 !important;
+}
+.top-bg {
+  width: 100%;
+  height: 25vh;
+  background: linear-gradient(to right, #007171, #02803d);
+  .avat {
+    width:78px;
+    height: 78px;
+    border:1px solid #fff;
+    border-radius:50%;
+    position: absolute;
+    top: 9%;
+    left: 50%;
+    transform: translate(-50%);
+    .bgimg{
+      background: url("../../../assets/icon/tu.jpg") no-repeat fixed 0% 0%;
+      background-size: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+  }
+  .user-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    top: 21%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+.list{
+  margin-top: 10px;
+  .icon{
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}
+.item-native{
+  background: #ffffff;
+}

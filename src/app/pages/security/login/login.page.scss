@@ -1,0 +1,32 @@
+.form-item{
+  border-bottom: 1px solid #ddd;
+}
+.logo-area{
+  text-align: center;
+  margin: 70px 0;
+  span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #2269e6;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 22px;
+  }
+}
+form{
+  .iconfont{
+    color: var(--ion-color-primary, #36454f);
+  }
+}
+::ng-deep{
+  .label-fixed.sc-ion-label-ios-h{
+    //display: flex;
+    //justify-content: center;
+    flex: 0 0 30px;
+    width: 30px;
+    min-width: 30px;
+  }
+}

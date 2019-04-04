@@ -1,0 +1,7 @@
+{
+  "name": "hloffice",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,11 @@
+export const STORAGE_CONFIG_CONSTANT = {name: 'TEST'};
+export const LOCAL_STORAGE_KEY = {
+    USER: {
+        USER_TOKEN_INFO: 'LOCAL_STORAGE_KEY:USER:USER_TOKEN_INFO',
+        USER_INFO: 'LOCAL_STORAGE_KEY:USER:USER_INFO',
+    },
+    MENU: {
+        USER_MENU: 'LOCAL_STORAGE_KEY:MENU:USER_MENU'
+    }
+};
+export const SESSION_STORAGE_KEY = {};

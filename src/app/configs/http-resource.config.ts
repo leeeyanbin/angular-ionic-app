@@ -1,0 +1,6 @@
+export const RESPONSE_TYPE = {
+    SUCCESS: '0',
+    ACCOUNT_ERROR: '1014',
+    LOCAL_ERROR: 'LOCAL_ERROR',
+    DEVICE_ERROR: 'E001'
+};

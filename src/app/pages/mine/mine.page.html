@@ -1,0 +1,33 @@
+
+<ion-content padding class="mine-content">
+
+  <div class="top-bg">
+    <div>
+      <div class="avat">
+        <div class="bgimg"></div>
+      </div>
+      <div class="user-info">
+        <ion-label>姓名</ion-label>
+        <ion-label>15961171063</ion-label>
+      </div>
+    </div>
+
+  </div>
+  <ion-list class="list">
+    <ion-item (click)="goToView('version')" class="fdfd">
+      <ion-button fill="clear" color="dark">
+        <ion-icon slot="start" name="sync"  color="primary" class="icon"></ion-icon>
+        <ion-label>检查更新</ion-label>
+      </ion-button>
+    </ion-item>
+
+    <ion-item (click)="goToView('setting')">
+      <ion-button fill="clear" color="dark">
+        <ion-icon slot="start" name="settings"  color="primary" class="icon"></ion-icon>
+        <ion-label>设置</ion-label>
+      </ion-button>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

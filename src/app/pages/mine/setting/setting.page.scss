@@ -1,0 +1,16 @@
+ion-list{
+  margin:10px 0;
+  background: #fff;
+}
+[padding]{
+  --ion-padding: 0 !important;
+}
+:host{
+  //--ion-background-color:#eee;
+}
+//.inner-scroll{
+//  background: #989aa2 !important;
+//}
+.light{
+  --ion-background-color: #f5f5f9;
+}
